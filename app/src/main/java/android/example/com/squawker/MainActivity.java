@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements
         }
 
         // COMPLETED (1) Make a new package for your FCM service classes called "fcm"
-            // TODO (2) Create a new Service class that extends FirebaseInstanceIdService.
+            // COMPLETED (2) Create a new Service class that extends FirebaseInstanceIdService.
             // You'll need to implement the onTokenRefresh method. Simply have it print out
             // the new token.
         // TODO (3) Here, in MainActivity, get a token using FirebaseInstanceId.getInstance().getToken()
