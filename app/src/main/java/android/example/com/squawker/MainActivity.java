@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements
             Log.d(LOG_TAG, "Contains: " + extras.getString("test"));
         }
 
-        // TODO (1) Make a new package for your FCM service classes called "fcm"
+        // COMPLETED (1) Make a new package for your FCM service classes called "fcm"
             // TODO (2) Create a new Service class that extends FirebaseInstanceIdService.
             // You'll need to implement the onTokenRefresh method. Simply have it print out
             // the new token.
