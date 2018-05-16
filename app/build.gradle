@@ -32,7 +32,7 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:27.1.1'
 
     // Schematic dependencies for ContentProvider
-    apt 'net.simonvt.schematic:schematic-compiler:0.6.3'
+    annotationProcessor 'net.simonvt.schematic:schematic-compiler:0.6.3'
     implementation 'net.simonvt.schematic:schematic:0.6.3'
 
     // Preferences Dependencies
